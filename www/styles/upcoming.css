@@ -1,0 +1,111 @@
+#top_mid    {width: 320px;
+            height: 160px; /*200 no padding*/
+            padding-top: 20px;
+            text-align: center;
+            background-color: red;}
+
+.profile    {width: 150px;
+            height: 100px;
+            margin-left: 85px;}
+
+.pic        {width: 100px;
+            height: 100px;
+            background-color: firebrick;}
+
+.corner_text    {color: white;
+                font-family: sans-serif;
+                font-family: 50px;
+                font-weight: 500;
+                margin-top: 15px;}
+
+#middle         {width: 320px;
+                height: 300px; /*330 no padding*/
+                overflow-y: scroll;
+                overflow-x: hidden;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                clear: both;
+                background-color: bisque;}
+
+.labels         {float: left;}
+
+.lab_text       {float: left;
+                font-family: sans-serif;
+                font-size: 14px;
+                color: gray;
+                margin-top: 10px;
+                margin-left: 12px;}
+
+.lab_text2       {float: left;
+                font-family: sans-serif;
+                font-size: 14px;
+                color: gray;
+                margin-top: 10px;
+                margin-right: 10px;
+                margin-left: 28px;}
+
+.h_line         {width: 300px;
+                height: 2px;
+                margin-bottom: 5px;
+                margin-top: 10px;
+                margin-left: 10px;
+                float: left;
+                background-color: gray;}
+
+.selection      {float: left;
+                margin-top: 15px;
+                margin-left: 10px;}
+
+.box            {float: left;}
+
+.big_text         {float: left;
+                width: 90px;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 12px;}
+
+.small_text         {float: left;
+                width: 60px;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 13px;}
+
+.smaller_text         {float: left;
+                width: 50px;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 13px;}
+
+.s_text         {float: left;
+                width: 70px;
+                margin-left: 14.2px;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 13px;}
+
+#bottom         {width: 320px;
+                height: 45px; /*60 no padding*/
+                padding-top: 15px;
+                text-align: center;
+                text-decoration: none;
+                background-color: red;}
+
+.b_text         {margin-top: 0px;
+                color: white;
+                font-family: sans-serif;
+                font-size: 25px;
+                font-weight: 500;
+                text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+

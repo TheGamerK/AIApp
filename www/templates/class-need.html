@@ -1,0 +1,23 @@
+<!--
+  This template gets placed in the Pet tab's <ion-nav-view> directive.
+  It was wired up in the app config (app.js)
+  The 'pets' data comes from its $scope within PetIndexCtrl (controller.js)
+-->
+<ion-view title="List of Classes Taken">
+    <ion-content has-tabs="true">
+
+        <ion-list>
+
+            <!-- "course in audit" sets a variable, course, and assigns it the audit object as created in the controller file -->
+            <ion-item ng-repeat="course in audit" type="item-text-wrap" href="#/tab/class-list/{{course.id}}">
+                <div ng-if="course.need">
+                    <h3>{{course.title}}</h3>
+                    <p>{{course.description}}</p>
+                    <p>{{course.id}}</p>
+                    <p>You need this course.</p>
+                </div>
+
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

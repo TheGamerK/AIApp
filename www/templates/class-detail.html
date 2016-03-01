@@ -1,0 +1,15 @@
+<!--
+  This template loads for the 'tab.pet-detail' state (app.js)
+  'pet' is a $scope variable created in the PetCtrl controller (controllers.js)
+  The PetCtrl pulls data from the Pets service (service.js)
+  The Pets service returns an array of pet data
+-->
+<ion-view title="{{course.title}}">
+    <ion-content padding="true">
+        <p>{{ course.description }}</p>
+        <p>{{ course.extra}}</p>
+        <p ng-if="course.need" class="need" style="color: black">Need this course</p>
+        <p ng-if="course.complete" class="taken" style="color: black">This course has been taken</p>
+        <p><a class="button button-small icon ion-arrow-left-b" href="#/tab/class-list">Class List</a></p>
+    </ion-content>
+</ion-view>
